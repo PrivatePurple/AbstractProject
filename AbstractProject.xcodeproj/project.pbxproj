@@ -8,19 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F633513721B709D5000EF2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633513621B709D5000EF2A0 /* AppDelegate.swift */; };
-		F633513921B709D5000EF2A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633513821B709D5000EF2A0 /* ViewController.swift */; };
+		F633513921B709D5000EF2A0 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633513821B709D5000EF2A0 /* AbstractionViewController.swift */; };
 		F633513C21B709D5000EF2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F633513A21B709D5000EF2A0 /* Main.storyboard */; };
 		F633513E21B709D7000EF2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F633513D21B709D7000EF2A0 /* Assets.xcassets */; };
-		F633514121B709D7000EF2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F633513F21B709D7000EF2A0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F633513321B709D5000EF2A0 /* AbstractProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F633513621B709D5000EF2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F633513821B709D5000EF2A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F633513821B709D5000EF2A0 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		F633513B21B709D5000EF2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F633513D21B709D7000EF2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F633514021B709D7000EF2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F633514221B709D7000EF2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				F633513A21B709D5000EF2A0 /* Main.storyboard */,
-				F633513F21B709D7000EF2A0 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -83,7 +80,7 @@
 		F633514B21B70A79000EF2A0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F633513821B709D5000EF2A0 /* ViewController.swift */,
+				F633513821B709D5000EF2A0 /* AbstractionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -146,7 +143,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F633514121B709D7000EF2A0 /* LaunchScreen.storyboard in Resources */,
 				F633513E21B709D7000EF2A0 /* Assets.xcassets in Resources */,
 				F633513C21B709D5000EF2A0 /* Main.storyboard in Resources */,
 			);
@@ -159,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F633513921B709D5000EF2A0 /* ViewController.swift in Sources */,
+				F633513921B709D5000EF2A0 /* AbstractionViewController.swift in Sources */,
 				F633513721B709D5000EF2A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,14 +169,6 @@
 				F633513B21B709D5000EF2A0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F633513F21B709D7000EF2A0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F633514021B709D7000EF2A0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
